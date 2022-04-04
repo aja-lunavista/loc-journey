@@ -1,7 +1,7 @@
 /*Style sheet for aja's loc journey site*/
 html {
-  font-size: 10px; /*just trying out the comment function*/
-  font-family: "Akaya Telivigala", cursive;
+  font-size: 12px; /*just trying out the comment function*/
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(163, 128, 187);
 }
 
@@ -24,10 +24,10 @@ h1 {
 }
 
 section {
-  font-size: 30px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 1px;
-  background-color: rgb(65, 177, 241);
+  background-color: rgb(164, 210, 236);
 }
 
 p {
@@ -59,7 +59,7 @@ nav {
   height: auto;
   margin: 0 auto;
   margin: 0;
-  float:left;
+  float: left;
 }
 
 .header:hover {
