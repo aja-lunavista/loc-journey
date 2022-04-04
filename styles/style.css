@@ -54,6 +54,13 @@ nav {
   margin: 5px;
 }
 
+.logo {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+  margin: 0;
+}
+
 .header:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
