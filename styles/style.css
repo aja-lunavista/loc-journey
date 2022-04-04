@@ -21,15 +21,17 @@ h1 {
   padding: 1% 0 0 0;
 }
 
+div p {
+  text-align: center;
+}
+
 section {
   font-size: 20px;
-  text-align: center;
   line-height: 1.5;
-  letter-spacing: 1px;
   background-color: #edfafc;
 }
 
-div p {
+section p {
   padding: 0 2%;
   text-align: left;
 }
