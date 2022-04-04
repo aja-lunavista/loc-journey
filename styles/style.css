@@ -166,20 +166,40 @@ div.wash {
   background: #edfafc;
 }
 
-.bottomleft {
+.midleft {
   display: inline-block;
   float: left;
   width: 46%;
   padding: 2%;
+  margin-top: 3%;
   background: #edfafc;
 }
 
-.bottomright {
+.midright {
   display: inline-block;
   float: right;
   width: 28%;
   margin-right: 2%;
   padding-left: 20%;
+  padding-top: 2%;
+}
+
+.bottomleft {
+  display: inline-block;
+  float: left;
+  width: 28%;
+  margin-right: 2%;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.bottomright {
+  display: inline-block;
+  float: right;
+  width: 46%;
+  padding: 2%;
+  margin-bottom: 3%;
+  background: #edfafc;
 }
 
 section.top {
