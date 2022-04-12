@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>My test page</title>
+        <script src="scripts/main.js"></script>
         <link href="styles/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="images/tab-image.png"/>
@@ -27,10 +28,23 @@
             </nav>
             <br>
     
-        <div class: intro>
+        <div class = "intro">
             <h1>Join Aja</h1>
             <p>As she navigates her first year installing and maintaining her DIY two-strand twist starter locs.</p>
         </div>
+
+    <div id = "slideshow"> 
+        <section id = "image">FAV STYLES - Hover over a thumbnail.</section>
+        <aside id = "thumbnails">
+            <img class = "preview" alt = "Rope Twists" src = "images/test-site2.png"
+                onmouseover = "upDate(this)"
+                onmouseout = "unDo()">
+            <img class = "preview" alt = "Twist Out" src = "images/twist-out.png"
+                onmouseover = "upDate(this)"
+                onmouseout = "unDo()">
+        </aside>
+    </div>
+
         <aside class="connect">
             <ul>
                 <li><a href="https://www.instagram.com/ajas_loc_journey/" target="_blank" aria-label="Instagram">

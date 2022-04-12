@@ -2,7 +2,7 @@
 html {
   font-size: 20px; /*just trying out the comment function*/
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(163, 128, 187);
+  background-color: #8e68ff;
 }
 
 body {
@@ -38,7 +38,8 @@ section p {
 }
 
 nav {
-  height: 150px;
+  height: 250px;
+  background-color: #8e68ff;
 }
 
 nav ul {
@@ -54,17 +55,18 @@ nav li {
 }
 
 .header {
-  text-decoration: none;
-  color: rgb(226, 49, 226);
-  text-shadow: 2px 2px 1px black;
-  transition: 0.5s background-color;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
 }
 
 .logo {
-  width: 100%;
+  width: 300px;
   height: auto;
   display: inline-block;
   float: left;
+  padding-top: 70px;
+  margin-left: 10px;
+  clear: right;
 }
 
 .header:hover {
@@ -73,7 +75,12 @@ nav li {
 }
 
 .current {
-  color: rgb(226, 49, 226);
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px black;
+  font-size: 25px;
+  transition: 0.5s background-color;
+  text-decoration: none;
 }
 
 .current:hover {
@@ -188,16 +195,16 @@ div.wash {
 .bottomleft {
   display: inline-block;
   float: left;
-  width: 28%;
+  width: 29%;
   margin-right: 2%;
   padding-left: 20%;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .bottomright {
   display: inline-block;
   float: right;
-  width: 46%;
+  width: 45%;
   padding: 2%;
   margin-bottom: 3%;
   background: #edfafc;
@@ -222,4 +229,36 @@ iframe {
   width: 70%;
   display: block;
   margin: 0 auto;
+}
+
+#image {
+  line-height: 500px;
+  width: 440px;
+  height: auto;
+  border: 5px solid black;
+  background-color: #8e68ff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom: 25px;
+  margin-left: 40%;
+  font-size: 120%;
+  display: inline-block;
+  float: left;
+}
+
+.preview {
+  width: 100%;
+  margin: 0 0 10% 10%;
+  border: 5px solid black;
+  display: inline-block;
+  float: left;
+}
+
+#thumbnails {
+  display: inline-block;
+  width: 50px;
 }
