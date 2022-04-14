@@ -127,16 +127,7 @@ nav li ul li {
 
 footer {
   clear: both;
-  margin: 0 auto;
   text-align: center;
-}
-
-#copyright {
-  display:flex;
-}
-
-#email {
-  display: flex;
 }
 
 hr {
