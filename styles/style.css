@@ -1,6 +1,6 @@
 /*Style sheet for aja's loc journey site*/
 html {
-  font-size: 20px; /*just trying out the comment function*/
+  font-size: 1.2em; /*just trying out the comment function*/
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #8e68ff;
 }
@@ -15,7 +15,7 @@ body {
 
 h1 {
   color: rgb(27, 19, 27);
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
   line-height: 100%;
   padding: 1% 0 0 0;
@@ -26,7 +26,6 @@ div p {
 }
 
 section {
-  font-size: 20px;
   text-align: center;
   line-height: 1.5;
   background-color: #edfafc;
@@ -38,7 +37,8 @@ section p {
 }
 
 nav {
-  height: 250px;
+  height: 225px;
+  padding-top: 2%;
   background-color: #8e68ff;
 }
 
@@ -48,7 +48,7 @@ nav ul {
 }
 
 nav li {
-  width: 23%;
+  width: 20%;
   height: 60px;
   line-height: 20px;
   display: inline-block;
@@ -56,17 +56,17 @@ nav li {
 
 .header {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 1.3em;
 }
 
 .logo {
-  width: 300px;
+  width: 125%;
   height: auto;
   display: inline-block;
   float: left;
-  padding-top: 70px;
-  margin-left: 10px;
-  clear: right;
+  padding-top: 8%;
+  margin-left: 2%;
+  clear: both;
 }
 
 .header:hover {
@@ -75,10 +75,9 @@ nav li {
 }
 
 .current {
-  font-size: 40px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 1px black;
-  font-size: 25px;
+  font-size: 1.3em;
   transition: 0.5s background-color;
   text-decoration: none;
 }
@@ -97,7 +96,8 @@ img {
 /*Sub menus*/
 
 nav li li {
-  font-size: 0.4em;
+  font-size: .8em;
+  width: 100%;
 }
 
 nav > ul > li {
@@ -105,7 +105,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding-left: 30;
+  text-align: center;
 }
 
 nav li ul {
@@ -116,20 +116,27 @@ nav li ul {
 
 nav li:hover ul {
   display: block;
+  text-align: center;
 }
 
 nav li ul li {
   display: block;
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 /*Sub menus*/
 
 footer {
-  display: block;
   clear: both;
   margin: 0 auto;
-  padding: 0 41%;
+  text-align: center;
+}
+
+#copyright {
+  display:flex;
+}
+
+#email {
+  display: flex;
 }
 
 hr {
@@ -262,3 +269,4 @@ iframe {
   display: inline-block;
   width: 50px;
 }
+
