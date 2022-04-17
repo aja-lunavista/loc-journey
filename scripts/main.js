@@ -7,3 +7,7 @@ function unDo(){
     document.getElementById('image').style.backgroundImage="url('')";
     document.getElementById('image').innerHTML="FAV STYLES - Hover over a thumbnail.";
 }
+
+function Hide(HideID){
+    HideID.style.display = "none";
+}
