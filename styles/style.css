@@ -142,9 +142,8 @@ hr {
 @media screen and (min-width: 300px) {
   #connect {
     position: fixed;
-    width: 95%;
+    width: 100%;
     bottom: 0%;
-    left: 0;
     background: rgba(0, 0, 0, 0.5);
   }
 }
@@ -153,7 +152,7 @@ hr {
   #connect {
     position: fixed;
     bottom: 50%;
-    right: 0;
+    right: 0 !important;
     width: 30px;
     background: rgba(0, 0, 0, 0.5);
     padding: 2px 90px 2px 0px;
@@ -186,7 +185,7 @@ hr {
   aside ul li {
     display: inline-block;
     float: left;
-    margin-left: 19%;
+    margin-left: 18%;
     padding: 0%;
   }
 }
