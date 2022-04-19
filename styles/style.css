@@ -97,6 +97,12 @@ img {
   margin: 0 auto;
 }
 
+.samples img {
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+}
+
 /*Sub menus*/
 
 nav li li {
