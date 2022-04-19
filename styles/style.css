@@ -105,7 +105,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .samples img {
     width: 15%;
     height: auto;
@@ -174,7 +174,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   #connect {
     position: fixed;
     bottom: 50%;
@@ -199,7 +199,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   #xButton {
     text-align: center;
     font-size: 0.6em;
@@ -209,21 +209,6 @@ hr {
 #xButton:hover {
   background-color: coral;
 }
-
-/* @media screen and (min-width: 300px) {
-  aside ul li {
-    display: inline-block;
-    float: left;
-    margin-left: 18%;
-    padding: 0%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  aside ul {
-    list-style-type: none;
-  }
-} */
 
 div.samples {
   clear: both;
@@ -266,7 +251,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   #image {
     line-height: 400px;
     width: 100%;
@@ -297,7 +282,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .preview {
     width: 5%;
     margin: 2%;
