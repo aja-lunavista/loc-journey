@@ -142,9 +142,19 @@ hr {
 @media screen and (min-width: 300px) {
   #connect {
     position: fixed;
-    width: 100%;
     bottom: 0%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #icons {
+    display: inline-block;
+    float: left;
+    width: 100%;
   }
 }
 
@@ -154,26 +164,29 @@ hr {
     bottom: 50%;
     right: 0;
     width: 30px;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2px 90px 2px 0px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2px 56px 2px 0px;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
+}
+
+#instagram #youtube #mail {
+  color: rgb(0, 0, 0);
 }
 
 @media screen and (min-width: 300px) {
   #xButton {
-    display: inline-block;
-    float: left;
     text-align: center;
-    font-size: 2.5em;
-    background-color: #ffffff;
+    font-size: 0.5em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   #xButton {
     text-align: center;
-    font-size: 1.5em;
-    background-color: #ffffff;
+    font-size: 0.6em;
   }
 }
 
@@ -181,7 +194,7 @@ hr {
   background-color: coral;
 }
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   aside ul li {
     display: inline-block;
     float: left;
@@ -194,16 +207,11 @@ hr {
   aside ul {
     list-style-type: none;
   }
-}
+} */
 
-div.care {
+div.samples {
   clear: both;
   margin-bottom: 100px;
-}
-
-section.top {
-  clear: both;
-  background: #ffffff;
 }
 
 video {
