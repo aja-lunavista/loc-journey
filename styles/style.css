@@ -160,18 +160,31 @@ hr {
   }
 }
 
-#xButton {
-  display: inline-block;
-  float: left;
-  text-align: center;
-  font-size: 2.5em;
-  background-color: coral;
-}
-#xButton:hover {
-  background-color: #ffffff;
+@media screen and (min-width: 900px) {
+  #xButton {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #ffffff;
+  }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 1200px) {
+  #xButton {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #ffffff;
+  }
+}
+
+#xButton:hover {
+  background-color: coral;
+}
+
+@media screen and (min-width: 900px) {
   aside li {
     display: inline-block;
     float: left;
@@ -179,7 +192,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   aside ul {
     list-style-type: none;
   }
@@ -201,7 +214,7 @@ div.wash {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .topleft {
     width: 29%;
     display: inline-block;
