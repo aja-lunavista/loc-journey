@@ -97,10 +97,20 @@ img {
   margin: 0 auto;
 }
 
-.samples img {
-  width: 20%;
-  height: auto;
-  margin: 0 auto;
+@media screen and (min-width: 300px) {
+  .samples img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .samples img {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
 /*Sub menus*/
