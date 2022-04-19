@@ -376,6 +376,17 @@ iframe {
 
 @media screen and (min-width: 300px) {
   .preview {
+    width: 20%;
+    margin: 2%;
+    margin-left: 18%;
+    border: 5px solid black;
+    display: inline-block;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .preview {
     width: 5%;
     margin: 2%;
     margin-left: 30%;
@@ -384,14 +395,3 @@ iframe {
     float: left;
   }
 }
-
-/* @media screen and (min-width: 1200px) {
-  .preview {
-    width: 5%;
-    margin: 2%;
-    margin-left: 20%;
-    border: 5px solid black;
-    display: inline-block;
-    float: left;
-  }
-} */
