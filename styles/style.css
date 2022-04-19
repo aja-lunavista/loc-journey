@@ -201,11 +201,7 @@ div.care {
   margin-bottom: 100px;
 }
 
-div.wash {
-  clear: both;
-}
-
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   .topleft {
     display: block;
     width: 75%;
@@ -311,7 +307,7 @@ div.wash {
     float: right;
     font-size: 0.8em;
   }
-}
+} */
 
 section.top {
   clear: both;
