@@ -163,7 +163,7 @@ hr {
 @media screen and (min-width: 900px) {
   #xButton {
     display: inline-block;
-    float: left;
+    float: right;
     text-align: center;
     font-size: 2.5em;
     background-color: #ffffff;
@@ -177,6 +177,7 @@ hr {
     text-align: center;
     font-size: 1.5em;
     background-color: #ffffff;
+    padding-left: 10%;
   }
 }
 
@@ -185,10 +186,11 @@ hr {
 }
 
 @media screen and (min-width: 900px) {
-  aside li {
+  aside ul li {
     display: inline-block;
     float: left;
     margin-left: 20%;
+    padding: 0%;
   }
 }
 
