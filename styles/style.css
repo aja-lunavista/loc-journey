@@ -207,14 +207,14 @@ div.wash {
   clear: both;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 900px) {
   .topleft {
     display: block;
     width: 75%;
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .topleft {
     width: 29%;
     display: inline-block;
