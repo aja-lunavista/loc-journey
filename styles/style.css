@@ -139,13 +139,25 @@ hr {
   clear: both;
 }
 
-#connect {
-  position: fixed;
-  bottom: 50%;
-  right: 0;
-  width: 30px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 2px 90px 2px 0px;
+@media screen and (min-width: 900px) {
+  #connect {
+    position: fixed;
+    bottom: 0%;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #connect {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 90px 2px 0px;
+  }
 }
 
 #xButton {
@@ -158,8 +170,18 @@ hr {
   background-color: #ffffff;
 }
 
-aside ul {
-  list-style-type: none;
+@media screen and (min-width: 300px) {
+  aside li {
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  aside ul {
+    list-style-type: none;
+  }
 }
 
 div.care {
@@ -171,18 +193,16 @@ div.wash {
   clear: both;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .topleft {
     display: block;
     width: 75%;
-    margin-left: 12%;
-    padding-left: 20%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .topleft {
     width: 29%;
-    margin-left: 1%;
     display: inline-block;
     float: left;
   }
@@ -228,7 +248,7 @@ div.wash {
   .midright {
     display: block;
     width: 75%;
-    margin-left: 30%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -236,7 +256,6 @@ div.wash {
     width: 29%;
     display: inline-block;
     float: right;
-    margin-top: 2%;
   }
 }
 
@@ -244,17 +263,14 @@ div.wash {
   .bottomleft {
     display: block;
     width: 75%;
-    margin-left: 30%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .bottomleft {
     width: 29%;
-    margin-right: 95%;
-    margin-top: 5%;
     display: inline-block;
     float: left;
-  }
   }
 }
 
@@ -341,9 +357,9 @@ iframe {
 @media screen and (min-width: 900px) {
   .preview {
     width: 20%;
-    border: 5px solid black;
     margin: 2%;
     margin-left: 18%;
+    border: 5px solid black;
     display: inline-block;
     float: left;
   }
@@ -359,3 +375,8 @@ iframe {
     float: left;
   }
 }
+
+/* #thumbnails {
+  display: inline-block;
+  width: 50px;
+} */
