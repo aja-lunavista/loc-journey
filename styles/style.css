@@ -201,114 +201,6 @@ div.care {
   margin-bottom: 100px;
 }
 
-/* @media screen and (min-width: 300px) {
-  .topleft {
-    display: block;
-    width: 75%;
-    margin-left: 12%;
-    padding-left: 20%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .topleft {
-    width: 29%;
-    margin-left: 15%;
-    padding-left: 1%;
-    display: inline-block;
-    float: left;
-    clear: both;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .topright {
-    display: block;
-    width: 75%;
-    margin: 0 auto;
-    background: #edfafc;
-    font-size: 1.8em;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .topright {
-    width: 45%;
-    display: inline-block;
-    float: right;
-    font-size: 0.8em;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .midleft {
-    display: block;
-    width: 75%;
-    margin: 0 auto;
-    background: #edfafc;
-    font-size: 1.8em;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .midleft {
-    width: 45%;
-    display: inline-block;
-    float: left;
-    font-size: 0.8em;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .midright {
-    display: block;
-    width: 75%;
-    margin-left: 30%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .midright {
-    width: 29%;
-    display: inline-block;
-    float: right;
-    clear: both;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .bottomleft {
-    display: block;
-    width: 75%;
-    margin-left: 30%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .bottomleft {
-    width: 29%;
-    margin-left: 15%;
-    padding-left: 1%;
-    margin-top: 6%;
-    display: inline-block;
-    float: left;
-    clear: both;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .bottomright {
-    display: block;
-    width: 75%;
-    margin: 0 auto;
-    background: #edfafc;
-    font-size: 1.8em;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .bottomright {
-    width: 45%;
-    display: inline-block;
-    float: right;
-    font-size: 0.8em;
-  }
-} */
-
 section.top {
   clear: both;
   background: #ffffff;
@@ -332,7 +224,7 @@ iframe {
 
 @media screen and (min-width: 300px) {
   #image {
-    line-height: 900px;
+    line-height: 300px;
     width: 106%;
     height: auto;
     border: 5px solid black;
@@ -342,9 +234,9 @@ iframe {
     color: #ffffff;
     text-shadow: 2px 2px 1px black;
     text-align: center;
-    background-size: 80%;
+    background-size: 60%;
     margin-bottom: 25px;
-    font-size: 2em;
+    font-size: 1.4em;
     display: block;
     margin: 0 auto;
   }
