@@ -142,6 +142,7 @@ hr {
 @media screen and (min-width: 900px) {
   #connect {
     position: fixed;
+    width: 90%;
     bottom: 0%;
     right: 0;
     width: 100%;
@@ -163,7 +164,7 @@ hr {
 @media screen and (min-width: 900px) {
   #xButton {
     display: inline-block;
-    float: right;
+    float: left;
     text-align: center;
     font-size: 2.5em;
     background-color: #ffffff;
@@ -172,12 +173,9 @@ hr {
 
 @media screen and (min-width: 1200px) {
   #xButton {
-    display: inline-block;
-    float: left;
     text-align: center;
     font-size: 1.5em;
     background-color: #ffffff;
-    padding-left: 10%;
   }
 }
 
@@ -189,7 +187,7 @@ hr {
   aside ul li {
     display: inline-block;
     float: left;
-    margin-left: 20%;
+    margin-left: 19%;
     padding: 0%;
   }
 }
@@ -224,6 +222,7 @@ div.wash {
     padding-left: 1%;
     display: inline-block;
     float: left;
+    clear: both;
   }
 }
 
@@ -275,6 +274,7 @@ div.wash {
     width: 29%;
     display: inline-block;
     float: right;
+    clear: both;
   }
 }
 
@@ -293,6 +293,7 @@ div.wash {
     margin-top: 6%;
     display: inline-block;
     float: left;
+    clear: both;
   }
 }
 
