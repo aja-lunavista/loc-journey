@@ -139,13 +139,12 @@ hr {
   clear: both;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   #connect {
     position: fixed;
-    width: 90%;
+    width: 95%;
     bottom: 0%;
-    right: 0;
-    width: 100%;
+    left: 0;
     background: rgba(0, 0, 0, 0.5);
   }
 }
@@ -161,7 +160,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   #xButton {
     display: inline-block;
     float: left;
@@ -183,7 +182,7 @@ hr {
   background-color: coral;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   aside ul li {
     display: inline-block;
     float: left;
@@ -207,7 +206,7 @@ div.wash {
   clear: both;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .topleft {
     display: block;
     width: 75%;
@@ -226,7 +225,7 @@ div.wash {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .topright {
     display: block;
     width: 75%;
@@ -244,7 +243,7 @@ div.wash {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .midleft {
     display: block;
     width: 75%;
@@ -262,7 +261,7 @@ div.wash {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .midright {
     display: block;
     width: 75%;
@@ -278,7 +277,7 @@ div.wash {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .bottomleft {
     display: block;
     width: 75%;
@@ -297,7 +296,7 @@ div.wash {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .bottomright {
     display: block;
     width: 75%;
@@ -336,7 +335,7 @@ iframe {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   #image {
     line-height: 900px;
     width: 100%;
@@ -377,7 +376,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 300px) {
   .preview {
     width: 20%;
     margin: 2%;
