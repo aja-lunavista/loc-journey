@@ -164,6 +164,7 @@ hr {
   display: inline-block;
   float: left;
   text-align: center;
+  font-size: 2.5em;
   background-color: coral;
 }
 #xButton:hover {
