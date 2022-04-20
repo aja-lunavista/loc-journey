@@ -5,7 +5,7 @@ function upDate(previewPic){
 
 function unDo(){
     document.getElementById('image').style.backgroundImage="url('')";
-    document.getElementById('image').innerHTML="FAV STYLES - Select a thumbnail below.";
+    document.getElementById('image').innerHTML="FAV STYLES - Select the thumbnails below.";
 }
 
 function Hide(HideID){
