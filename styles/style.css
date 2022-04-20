@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  width: 100%;
   margin: 0 auto;
   padding: 0 0;
   background-color: rgb(255, 255, 255);
@@ -12,6 +13,7 @@ body {
 
 p {
   font-size: 1.3em;
+  text-align: left;
 }
 
 h1 {
@@ -253,7 +255,7 @@ iframe {
 @media screen and (min-width: 900px) {
   #image {
     line-height: 400px;
-    width: 100%;
+    width: 106%;
     height: auto;
     border: 5px solid black;
     background-color: #8e68ff;
