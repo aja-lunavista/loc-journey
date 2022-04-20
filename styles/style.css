@@ -43,14 +43,14 @@ section p {
 nav {
   height: 225px;
   width: 106%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: #8e68ff;
   border: 5px solid black;
 }
 
 nav ul {
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 
 nav li {
@@ -60,22 +60,13 @@ nav li {
   display: inline-block;
   float: left;
   padding-top: 2%;
+  margin-left: 0%;
 }
 
 .header,
 .subheader {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
-}
-
-.logo {
-  width: 125%;
-  height: auto;
-  display: inline-block;
-  float: left;
-  padding-top: 8%;
-  margin-left: 2%;
-  clear: both;
 }
 
 .header:hover,
@@ -97,10 +88,19 @@ nav li {
   background: rgb(163, 128, 187);
 }
 
-img {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
+@media screen and (min-width: 300px) {
+  img {
+    width: 100%;
+    height: auto;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  img {
+    width: 70%;
+    height: auto;
+  }
 }
 
 .h2 {
@@ -135,9 +135,9 @@ nav li li {
   width: 100%;
 }
 
-/* nav > ul > li {
+nav > ul > li {
   text-align: center;
-} */
+}
 
 nav > ul > li > a {
   text-align: center;
