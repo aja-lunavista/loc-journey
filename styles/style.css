@@ -41,7 +41,7 @@ section p {
 }
 
 nav {
-  height: 235px;
+  height: 225px;
   width: 106%;
   margin: 0 auto;
   background-color: #8e68ff;
@@ -58,6 +58,8 @@ nav li {
   height: 60px;
   line-height: 20px;
   display: inline-block;
+  float: left;
+  padding-top: 2%;
 }
 
 .header,
@@ -129,13 +131,13 @@ img {
 /*Sub menus*/
 
 nav li li {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   width: 100%;
 }
 
-nav > ul > li {
+/* nav > ul > li {
   text-align: center;
-}
+} */
 
 nav > ul > li > a {
   text-align: center;
