@@ -115,6 +115,10 @@ img {
   }
 }
 
+.samples img:hover {
+  transform: rotate(1deg);
+}
+
 /*Sub menus*/
 
 nav li li {
@@ -292,4 +296,8 @@ iframe {
     display: inline-block;
     float: left;
   }
+}
+
+.preview:hover {
+  transform: rotate(2deg);
 }
