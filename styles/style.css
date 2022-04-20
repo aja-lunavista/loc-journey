@@ -43,7 +43,6 @@ nav {
   height: 225px;
   width: 106%;
   margin: 0 auto;
-  padding-top: 2%;
   background-color: #8e68ff;
   border: 5px solid black;
 }
@@ -60,7 +59,8 @@ nav li {
   display: inline-block;
 }
 
-.header {
+.header,
+.subheader {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
 }
@@ -75,7 +75,8 @@ nav li {
   clear: both;
 }
 
-.header:hover {
+.header:hover,
+.subheader:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
 }
@@ -97,6 +98,10 @@ img {
   width: 50%;
   height: auto;
   margin: 0 auto;
+}
+
+.h2 {
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 300px) {
