@@ -40,42 +40,36 @@ section p {
   text-align: left;
 }
 
-nav {
-  height: 225px;
-  width: 106%;
-  /* margin: 0 auto; */
-  background-color: #8e68ff;
-  border: 5px solid black;
+#logo {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-left: 3%;
 }
 
 nav ul {
-  list-style: none;
-  text-align: left;
-}
-
-nav li {
-  width: 20%;
-  height: 60px;
-  line-height: 20px;
   display: inline-block;
   float: left;
-  padding-top: 2%;
-  margin-left: 0%;
 }
 
-.header,
+#intro {
+  display: block;
+  clear: both;
+}
+
+/* .nav-item,
 .subheader {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
 }
 
-.header:hover,
+.nav-item:hover,
 .subheader:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
 }
 
-.current {
+.nav-link active {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 1px black;
   font-size: 1.5em;
@@ -83,10 +77,10 @@ nav li {
   text-decoration: none;
 }
 
-.current:hover {
+.nav-link active:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
-}
+} */
 
 @media screen and (min-width: 300px) {
   img {
@@ -130,7 +124,7 @@ nav li {
 
 /*Sub menus*/
 
-nav li li {
+/* nav li li {
   font-size: 0.7rem;
   width: 100%;
 }
@@ -157,7 +151,7 @@ nav li:hover ul {
 nav li ul li {
   display: block;
   text-align: center;
-}
+} */
 /*Sub menus*/
 
 footer {
@@ -248,7 +242,7 @@ iframe {
 @media screen and (min-width: 300px) {
   #image {
     line-height: 300px;
-    width: 106%;
+    width: 100%;
     height: auto;
     border: 5px solid black;
     background-color: #8e68ff;
@@ -268,7 +262,7 @@ iframe {
 @media screen and (min-width: 900px) {
   #image {
     line-height: 400px;
-    width: 106%;
+    width: 100%;
     height: auto;
     border: 5px solid black;
     background-color: #8e68ff;
