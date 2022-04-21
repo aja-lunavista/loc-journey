@@ -40,36 +40,42 @@ section p {
   text-align: left;
 }
 
-#logo {
-  width: 30%;
+nav {
+  height: 225px;
+  width: 106%;
+  /* margin: 0 auto; */
+  background-color: #8e68ff;
+  border: 5px solid black;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+}
+
+nav li {
+  width: 20%;
+  height: 60px;
+  line-height: 20px;
   display: inline-block;
   float: left;
-  margin-left: 1%;
+  padding-top: 2%;
+  margin-left: 0%;
 }
 
-.nav-pills {
-  display: flex;
-  justify-content: end;
-}
-
-#intro {
-  display: block;
-  clear: both;
-}
-
-/* .nav-item,
+.header,
 .subheader {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
 }
 
-.nav-item:hover,
+.header:hover,
 .subheader:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
 }
 
-.nav-link active {
+.current {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 1px black;
   font-size: 1.5em;
@@ -77,10 +83,10 @@ section p {
   text-decoration: none;
 }
 
-.nav-link active:hover {
+.current:hover {
   color: rgb(249, 246, 250);
   background: rgb(163, 128, 187);
-} */
+}
 
 @media screen and (min-width: 300px) {
   img {
@@ -124,7 +130,7 @@ section p {
 
 /*Sub menus*/
 
-/* nav li li {
+nav li li {
   font-size: 0.7rem;
   width: 100%;
 }
@@ -151,7 +157,7 @@ nav li:hover ul {
 nav li ul li {
   display: block;
   text-align: center;
-} */
+}
 /*Sub menus*/
 
 footer {
@@ -242,7 +248,7 @@ iframe {
 @media screen and (min-width: 300px) {
   #image {
     line-height: 300px;
-    width: 100%;
+    width: 106%;
     height: auto;
     border: 5px solid black;
     background-color: #8e68ff;
@@ -262,7 +268,7 @@ iframe {
 @media screen and (min-width: 900px) {
   #image {
     line-height: 400px;
-    width: 100%;
+    width: 106%;
     height: auto;
     border: 5px solid black;
     background-color: #8e68ff;
