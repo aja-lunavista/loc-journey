@@ -43,6 +43,7 @@ section p {
 nav {
   height: 175px;
   width: 106%;
+  display: flex;
 }
 
 nav ul {
@@ -50,21 +51,21 @@ nav ul {
   text-align: center;
 }
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   nav li {
     width: 100%;
     display: block;
     margin: 0 auto;
   }
-}
+} */
 
 nav li {
   width: 20%;
-  display: inline-block;
-  float: ;
+  /* display: inline-block; */
+  float: left;
   padding-top: 2%;
   /* margin-left: 0%; */
-  margin-right: 0%;
+  /* margin-right: 0%; */
 }
 
 .header,
@@ -72,7 +73,7 @@ nav li {
   color: rgb(0, 0, 0);
   font-size: 1.2em;
   border: 1px rgb(0, 0, 0);
-  padding: 2%;
+  /* padding: 2%; */
   text-decoration: none;
 }
 
