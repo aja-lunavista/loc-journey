@@ -3,10 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>My test page</title>
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="images/tab-image.png"/>
-    </head>
+        
+         <!-- Latest Boostrap 5 -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+         <script src="scripts/main.js"></script>
+         <link href="styles/style.css" rel="stylesheet">
+         
+         <!-- Bootstrap Icons -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+         
+         <!-- Font Awesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+         <link rel="icon" type="image/png" href="images/tab-image.png"/>
+     </head>
     <body id="top">
         <!--Okay, I'll give it a try.-->
         <header>
@@ -17,12 +28,12 @@
                     <li><a class="header" href="index.html">Home</a></li>
                     <li><a class="current" href="#">Years</a>
                     <ul>
-                        <li><a class="header" href="year-one.html">Year One</a></li>
+                        <li><a class="subheader" href="year-one.html">Year One</a></li>
                         <li><a class="current" href="year-two.html">Year Two</a></li>
-                        <li><a class="header" href="year-three.html">Year Three</a></li>
+                        <li><a class="subheader" href="year-three.html">Year Three</a></li>
                     </ul>
                     </li>
-                    <li><a class="header" href="first-journey.html">First Loc Journey</a></li>
+                    <li><a class="header" href="first-journey.html">1st Set</a></li>
                 </ul>
             </nav>
             <br>
@@ -55,24 +66,24 @@
             <br>
             <a href="#top">Back to Top</a>
         </section>
-        <aside class="connect">
-            <ul>
-                <li><a href="https://www.instagram.com/ajas_loc_journey/" target="_blank" aria-label="Instagram">
-                    <img src="images/instagram.png" style="width:50px; height:auto;" alt="Instagram">
-                    </a></li>
-                <br>
-                <li><a href="https://www.youtube.com/channel/UCShjObX2N9H1d6A85lodj3Q?app=desktop" target="_blank" aria-label="YouTube">
-                    <img src="images/youtube.png" style="width:50px; height:auto;" alt="YouTube">
-                    </a></li>
-                <br>
-                <li><a href="mailto:ajas.loc.journey@gmail.com?subject=Reaching%20Out%20&body=How%20are%20you" target="_blank" aria-label="Email me">
-                    <img src="images/gmail.png" style="width:50px; height:auto;" alt="Email me">
-                    </a></li>
-            </ul>
-        </aside>
+        <div id="connect" class="container">
+            <div class="row" id="icons">
+                <a id="instagram" class="col-xs-3" href="https://www.instagram.com/ajas_loc_journey/" style=text-decoration:none target="_blank" aria-label="Instagram" alt="Instagram">
+                <i class="bi bi-instagram"></i>
+                </a>
+                <a id="youtube" class="col-xs-3" href="https://www.youtube.com/channel/UCShjObX2N9H1d6A85lodj3Q?app=desktop" style=text-decoration:none target="_blank" aria-label="YouTube" alt="YouTube">
+                <i class="bi bi-youtube"></i>    
+                </a>
+                <a id="mail" class="col-xs-3" href="mailto:ajas.loc.journey@gmail.com?subject=Reaching%20Out%20&body=How%20are%20you" style=text-decoration:none target="_blank" aria-label="Email me" alt="Email me">
+                <i class="bi bi-envelope"></i>
+                </a>
+                <a class="col-xs-3" href="#" id="xButton" onclick="Hide(connect);">X</a>
+        </div>
+        </div>
         <hr>
         <footer style="font-size:medium">
-            &copy; 2022 Aja's Loc Journey <a href="mailto:ajas.loc.journey@gmail.com?subject=Reaching%20Out%20&body=How%20are%20you" target="_blank">Email Me</a>
+            &copy; 2022 Aja's Loc Journey
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
