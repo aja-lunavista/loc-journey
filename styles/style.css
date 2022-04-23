@@ -41,10 +41,13 @@ section p {
 }
 
 nav {
-  height: 175px;
+  height: 125px;
   width: 106%;
   display: flex;
 }
+
+@media screen and (min-width: 300px) {
+
 
 nav ul {
   list-style: none;
@@ -77,6 +80,12 @@ nav li {
   text-decoration: none;
 }
 
+@media screen and (min-width: 900px) {
+  .header, .subheader {
+  font-size: 1.5em;
+  }
+}
+
 .header:hover,
 .subheader:hover {
   color: rgb(249, 246, 250);
@@ -91,6 +100,12 @@ nav li {
   background-color: rgb(73, 131, 219);
   padding: 2%;
   font-size: 1em;
+}
+
+@media screen and (min-width: 900px) {
+  .current {
+  font-size: 1.5em;
+  }
 }
 
 .current:hover {
