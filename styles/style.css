@@ -338,3 +338,8 @@ iframe {
 #linktop {
   text-align: center;
 }
+
+button {
+  width: 10%;
+  font-size: 0.8em;
+}
