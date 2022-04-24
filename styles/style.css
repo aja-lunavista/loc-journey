@@ -334,3 +334,7 @@ iframe {
 .preview:hover {
   transform: rotate(2deg);
 }
+
+#linktop {
+  text-align: center;
+}
